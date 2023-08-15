@@ -17,11 +17,11 @@
 //     console.log("Aradığınız Anahtar Kelime Bulunamamıştır.")
 // }
 
-const todos = ["Todo1","Todo2","Todo3"]
-localStorage.setItem("todo", todos)
-//Arraye donüştürme
-localStorage.setItem("todo", JSON.stringify(todos))
+// const todos = ["Todo1","Todo2","Todo3"]
+// localStorage.setItem("todo", todos)
+// //Arraye donüştürme
+// localStorage.setItem("todo", JSON.stringify(todos))
 
-const value = JSON.parse(localStorage.getItem("todo"))
+// const value = JSON.parse(localStorage.getItem("todo"))
 
-console.log(value)
+// console.log(value)
